@@ -8,9 +8,7 @@ conn = sqlite3.connect("cars.db")
 cursor = conn.cursor()
 
 #create a table
-cursor.execute(""" CREATE TABLE inventory
-(Make TEXT, Model TEXT, Quantity INT)
-""")
+cursor.execute("DELETE FROM orders WHERE make = 'Ford'")
 
 #close the database connection
 conn.close()

@@ -1,1 +1,1 @@
-SQl stuff che !
+Real python sql stuff
